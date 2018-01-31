@@ -39,7 +39,7 @@ import (
 
 // TODO: A few methods in this package is copied from other sources. Either
 // because the existing functionality isn't exported or because it is in a
-// package that shouldn't be directly imported by this packages.
+// package that shouldn't be directly imported by these packages.
 
 // NewTokenAuthenticator initializes a bootstrap token authenticator.
 //

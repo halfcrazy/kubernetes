@@ -335,7 +335,7 @@ func TestAutomountsAPIToken(t *testing.T) {
 			},
 		},
 	}
-	// oldPod is not intialized.
+	// oldPod is not initialized.
 	oldPod.Initializers = &metav1.Initializers{Pending: []metav1.Initializer{{Name: "init"}}}
 	pod = &api.Pod{
 		Spec: api.PodSpec{
